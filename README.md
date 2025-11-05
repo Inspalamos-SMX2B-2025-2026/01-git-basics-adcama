@@ -72,14 +72,6 @@ arreglar-ho.
 
   - A la branca `web`, afegeix el fitxer d'estil `style.css` amb el contingut
     següent:
-
-```css
-pre {
-    background-color: #333;
-    color: #373;
-}
-```
-
   - Esborra els codi css d'aquest fitxer, `README.md`, de forma que aquest
     punt estigui a continuació de l'anterior. Fes el commit i el push del
     `README.md` a la branca principal. Missatge: 'README Only'.
@@ -90,11 +82,6 @@ pre {
 
   - A la branca `web`, Aplica el fitxer d'estil css als fitxers `exe1.html` i
     `exe2.html`. Has de posar el següent html just abans de `</head>`:
-
-```html
-    <link href="style.css">
-```
-
   - Esborra aquest codi html d'aquest fitxer, `README.md`, i fes el commit i
     el push a la branca principal. Missatge: 'HTML done'.
   - Fes el commit i el push dels fitxers `exe1.html` i `exe2.html` a la branca
@@ -104,13 +91,6 @@ pre {
 
   - En el fitxer `exe1.html`, just a sota de `<h1>Exercici 1</h1>`, inserta el
     fitxer `git.log` entre `<pre>` i `</pre>` amb les següents comandes:
-
-```bash
-    echo '<pre>' >> exe1.html
-    cat git.log >> exe1.html
-    echo '</pre>' >> exe1.html
-```
-
   - Edita el fitxer `exe1.html` i posa a lloc el bloc `<pre>..</pre>`, que ha
     d'anar just abans del tag `</body>`.
   - Fes el commit i el push del fitxer `exe1.html` a la branca `web`.
